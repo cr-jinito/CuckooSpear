@@ -1,6 +1,6 @@
 # CuckooSpear Threat Campaign - CTI Publication
 
-Welcome to the **CuckooSpear Threat Campaign / APT10 ** repository by Cybereason. This publication is dedicated to sharing detailed insights, Indicators of Compromise (IoCs), Yara rules, and Python scripts related to the CuckooSpear threat campaign. The goal of this repository is to aid cybersecurity professionals and researchers in detecting, analyzing, and mitigating threats associated with this campaign.
+Welcome to the **CuckooSpear Threat Campaign / APT10** repository by Cybereason. This publication is dedicated to sharing detailed insights, Indicators of Compromise (IoCs), Yara rules, and Python scripts related to the CuckooSpear threat campaign. The goal of this repository is to aid cybersecurity professionals and researchers in detecting, analyzing, and mitigating threats associated with this campaign.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the **CuckooSpear Threat Campaign / APT10 ** repository by Cybereason
 
 ## Overview
 
-CuckooSpear is a sophisticated threat campaign observed targeting various sectors across the globe. The campaign is characterized by advanced phishing techniques, custom malware, and strategic use of infrastructure to evade detection. This repository consolidates our research findings and provides actionable resources to help the cybersecurity community defend against this threat.
+CuckooSpear is a sophisticated threat campaign observed targeting various sectors and particularly Japan. The campaign is characterized by custom malware, and strategic use of infrastructure to evade detection. This repository consolidates our research findings and provides actionable resources to help the cybersecurity community defend against this threat.
 
 ## Yara Rules
 
