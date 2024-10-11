@@ -1,7 +1,7 @@
 rule xml_shellcode {
    meta:
       description = "NOOPDOOR shellcode"
-      author = "Jin Ito"
+      author = "Cybereason"
       date = "2023-12-13"
    strings:
       $s1 = "E(.dll" fullword ascii
@@ -10,20 +10,18 @@ rule xml_shellcode {
       $s4 = "D$Dl.dlf" fullword ascii
       $s5 = "D$42.dlf" fullword ascii
       $s6 = "D$$2.dlf" fullword ascii
-      $s7 = "t;fffffff" fullword ascii /* Goodware String - occured 1 times */
-      $s8 = "f;\\$`u" fullword ascii /* Goodware String - occured 3 times */
-      $s9 = "D$Pws2_" fullword ascii
-      $s10 = " A]A\\_" fullword ascii
-      $s11 = "E adva" fullword ascii
-      $s12 = "E0olea" fullword ascii
-      $s13 = "D$(thre" fullword ascii
-      $s14 = "D$0ole3" fullword ascii
-      $s15 = "u>IcD$" fullword ascii
-      $s16 = "D$xllH" fullword ascii
-      $s17 = "udHcK<" fullword ascii
-      $s18 = "D$T32.df" fullword ascii
-      $s19 = "D$lle n" fullword ascii
-      $s20 = "L$(D+MoD" fullword ascii
+      $s7 = "D$Pws2_" fullword ascii
+      $s8 = " A]A\\_" fullword ascii
+      $s9 = "E adva" fullword ascii
+      $s10 = "E0olea" fullword ascii
+      $s11 = "D$(thre" fullword ascii
+      $s12 = "D$0ole3" fullword ascii
+      $s13 = "u>IcD$" fullword ascii
+      $s14 = "D$xllH" fullword ascii
+      $s15 = "udHcK<" fullword ascii
+      $s16 = "D$T32.df" fullword ascii
+      $s17 = "D$lle n" fullword ascii
+      $s18 = "L$(D+MoD" fullword ascii
    condition:
       ( 8 of them )
 }
